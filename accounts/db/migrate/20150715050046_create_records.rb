@@ -3,7 +3,7 @@ class CreateRecords < ActiveRecord::Migration
     create_table :records do |t|
       t.string :title
       t.date :date
-      t.float :amaount
+      t.float :amount
 
       t.timestamps null: false
     end
