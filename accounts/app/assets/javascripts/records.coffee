@@ -2,18 +2,3 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-@Records = React.createClass
-	render: ->
-		React.DOM.div
-			className: 'records'
-			React.DOM.h2
-				className: 'title'
-				'Records'
-
-@Records = React.createClass
-	getInitialState -> 
-		records: @props.data
-	getDefaultProps: ->
-		records: []
-	render: ->
-	
